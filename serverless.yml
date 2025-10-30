@@ -1,4 +1,4 @@
-org: geraldocolchado
+org: leonardomontesinos
 service: api-alumnos
 
 provider:
@@ -6,7 +6,7 @@ provider:
   runtime: python3.12
   timeout: 30  
   iam:
-    role: arn:aws:iam::498917627164:role/LabRole
+    role: arn:aws:iam::088462649389:role/LabRole
 
 functions:
   listar:
